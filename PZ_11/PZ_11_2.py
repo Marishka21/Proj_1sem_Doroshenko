@@ -25,7 +25,7 @@ for i in textf_read:
     if i == ' ':
         n += 1
 textfile_open.close()
-print(textf_read, f'\n\nКолличество пробельных символов в тексте: {n}')
+print(textf_read, f'\n\nКоличество пробельных символов в тексте: {n}')
 
 # Символы из текста
 symbol = '.«»?:'
